@@ -1,3 +1,0 @@
-/home/ved/Desktop/learning_cuda/cudaProgramming/Basics/PMMP_Codes/Chapter_2/build/CMakeFiles/vector_addition.dir
-/home/ved/Desktop/learning_cuda/cudaProgramming/Basics/PMMP_Codes/Chapter_2/build/CMakeFiles/edit_cache.dir
-/home/ved/Desktop/learning_cuda/cudaProgramming/Basics/PMMP_Codes/Chapter_2/build/CMakeFiles/rebuild_cache.dir
