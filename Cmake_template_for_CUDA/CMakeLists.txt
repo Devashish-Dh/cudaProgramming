@@ -6,6 +6,8 @@ PROJECT(Write_Project_Name_Here
         LANGUAGES CXX CUDA       
 )
 
+ENABLE_LANGUAGE ( CUDA )
+
 set(CMAKE_BUILD_TYPE DEBUG)
 
 SET ( CMAKE_CXX_STANDARD 17 )
@@ -16,8 +18,8 @@ SET ( SOURCES
     ${CMAKE_SOURCE_DIR}/src
 )
 
-ADD_EXECUTABLE ( ${CMAKE_PROJECT_NAME} 
-${SOURCES}/main.cpp # remember to include the .cpp files here 
+ADD_EXECUTABLE ( ${CMAKE_PROJECT_NAME} # remember to include the .cpp and .cu files here 
+${SOURCES}/hello.cu 
 
 )
 
@@ -32,10 +34,9 @@ TARGET_COMPILE_OPTIONS( ${CMAKE_PROJECT_NAME}
     )
 
 
-TARGET_SOURCES( ${CMAKE_PROJECT_NAME} PRIVATE
-    src/main.cpp
-
-)
+#TARGET_SOURCES( ${CMAKE_PROJECT_NAME} PRIVATE
+#    src/____write_.cu/.cpp_files_here____
+#)
 
 SET_PROPERTY( TARGET ${CMAKE_PROJECT_NAME} PROPERTY CUDA_SEPARABLE_COMPILATION ON )
 SET_PROPERTY( TARGET ${CMAKE_PROJECT_NAME} PROPERTY CUDA_ARCHITECTURES 61 62 70 72 75 )
