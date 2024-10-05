@@ -24,7 +24,7 @@ vector_addition ${SOURCES}/vector_addition.cu
 
 )
 
-INCLUDE_DIRECTORIES( ${CMAKE_SOURCE_DIR}/include )
+INCLUDE_DIRECTORIES( ${CMAKE_SOURCE_DIR}/include ) # keep all header files here, .c .cpp .cuh
 
 #TARGET_LINK_LIBRARIES( ${CMAKE_PROJECT_NAME}
 #    PRIVATE 
