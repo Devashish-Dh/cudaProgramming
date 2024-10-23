@@ -8,7 +8,7 @@ PROJECT(exploring_matplotplusplus
 
 INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/include) # for header files if any
 
-INCLUDE_DIRECTORIES(${CMAKE_SOURCE_DIR}/libs)
+ADD_SUBDIRECTORY(matplotplusplus)
 
 SET(SOURCES ${CMAKE_SOURCE_DIR}/src/)# source files of the project
 
@@ -18,9 +18,9 @@ SET(SOURCES ${CMAKE_SOURCE_DIR}/src/)# source files of the project
 
 
 
-ADD_EXECUTABLE(Project_Name ${SOURCES}/main.cpp)
+ADD_EXECUTABLE(explore_matplot ${SOURCES}/main.cpp)
 
-TARGET_LINK_LIBRARIES(Project_Name PUBLIC matplot)
+TARGET_LINK_LIBRARIES(explore_matplot PUBLIC matplot)
 
 
 
