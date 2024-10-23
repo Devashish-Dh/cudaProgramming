@@ -1,0 +1,3 @@
+/home/ved/Desktop/learning_cuda/cudaProgramming/Basics/basic_playlist/codes/matrix_mul/build/CMakeFiles/matrix_multiplication.dir
+/home/ved/Desktop/learning_cuda/cudaProgramming/Basics/basic_playlist/codes/matrix_mul/build/CMakeFiles/edit_cache.dir
+/home/ved/Desktop/learning_cuda/cudaProgramming/Basics/basic_playlist/codes/matrix_mul/build/CMakeFiles/rebuild_cache.dir
